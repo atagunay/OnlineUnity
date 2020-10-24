@@ -7,7 +7,8 @@
 <blockquote>
 <h2 id="user-interface"><strong>USER INTERFACE</strong></h2>
 </blockquote>
-<h2 id="dofadefloat-bitiş_değeri-float-zamanlama">DOFade(float bitiş_değeri, float zamanlama)</h2>
+<h2 id="animasyon-ekleme">Animasyon Ekleme</h2>
+<h3 id="dofadefloat-bitiş_değeri-float-zamanlama">DOFade(float bitiş_değeri, float zamanlama)</h3>
 <p>Bu fonksiyonun temel amacı objelerin renklerindeki <strong>“A”</strong> değerini yani saydamlığını belirli bir süre zarfında değiştirmektir. En çok kullandığım objeler buton ve panellerdir.</p>
 <p>Ben bu fonksiyonu oyunumun başlangıç menüsü açılırken butonların animasyonlu bir şekilde gelmesi için kullandım.</p>
 <h4 id="kullanimi">KULLANIMI</h4>
@@ -33,9 +34,11 @@ exitBtn.GetComponent&lt;CanvasGroup&gt;().DOFade(1, 0.8f).SetDelay(0.5f);
 <blockquote>
 <h2 id="game-manager"><strong>GAME MANAGER</strong></h2>
 </blockquote>
-<h2 id="application.quit">Application.Quit()</h2>
+<h2 id="oyundan-çıkış">Oyundan Çıkış</h2>
+<h3 id="application.quit">Application.Quit()</h3>
 <p>Uygulamadan çıkılmasını sağlar.</p>
-<h2 id="scenemanager.loadscenesahnenin-ismi">SceneManager.LoadScene(“sahnenin ismi”);</h2>
+<h2 id="sahneler-arası-geçiş">Sahneler Arası Geçiş</h2>
+<h3 id="scenemanager.loadscenesahnenin-ismi">SceneManager.LoadScene(“sahnenin ismi”);</h3>
 <p>Sahneler arası geçişi sağlamaktadır.<br>
 Genellikle UI kısımda butonlara atanır.</p>
 <p><strong>Örnek:</strong></p>
