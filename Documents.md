@@ -39,6 +39,14 @@ exitBtn.GetComponent&lt;CanvasGroup&gt;().DOFade(1, 0.8f).SetDelay(0.5f);
 <p>Sahneler arası geçişi sağlamaktadır.<br>
 Genellikle UI kısımda butonlara atanır.</p>
 <p><strong>Örnek:</strong></p>
-<pre><code>SceneManager.LoadScene("GameLevel");
+<pre><code>using UnityEngine.SceneManagment;
+SceneManager.LoadScene("GameLevel");
+</code></pre>
+<p><strong>NOT</strong><br>
+Bazen unity editörü şu hatayı verebilir ve kodun altını çizebilir:</p>
+<pre><code>"Assets/MenuManager.cs(7,17): error CS0103: The name `SceneManager' does not exist in the current context."
+</code></pre>
+<p>Bu tip bir durumu komutumuzun uzun versiyonunu yazarak çözüme kavuştururuz.</p>
+<pre><code>UnityEngine.SceneManagement.SceneManager.LoadScene("GameLevel");
 </code></pre>
 
