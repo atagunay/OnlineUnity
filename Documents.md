@@ -13,19 +13,19 @@
 <h4 id="kullanimi">KULLANIMI</h4>
 <p>Assetstoredan <strong>DOTween (HOTween v2) Free</strong> eklentisini indirip projemize ekliyoruz.</p>
 <p>Kullanacağımız classımıza <strong>using DG.Tweening</strong> şeklinde ekliyoruz.</p>
-<p>Saydamlaştırmayı istediğimiz objemize(benim için buton) canvas group eklememiz gerekmektedir.</p>
-<p>Kodlara geçmeden öncede butonlarımızın renk ayarlarından <strong>A</strong> değerini sıfır yapıyoruz.</p>
+<p>Saydamlaştırmayı istediğimiz objemize(benim için buton) <strong>canvas group</strong> eklememiz gerekmektedir.</p>
+<p>Kodlara geçmeden öncede butonlarımızda bulunan <strong>canvas grouptaki</strong>  <strong>alpha</strong>  değerini sıfır yapıyoruz.</p>
 <p><strong>Örnek1:</strong></p>
 <pre><code>[SerializeField]
  GameObject startBtn, exitBtn;
 </code></pre>
-<p>Butonlarımızın <strong>A</strong> değeri sıfırdı fonksiyonumuzun ilk parametresi 		A’nın bitiş değerini ikinci parametresi ise bu işlemi yapacağı süreyi söylemektedir</p>
+<p>Butonlarımızın <strong>alpha</strong> değeri sıfırdı fonksiyonumuzun ilk parametresi <strong>alpha</strong> değerinin bitiş değerini ikinci parametresi ise bu işlemi yapacağı süreyi söylemektedir</p>
 <pre><code>startBtn.GetComponent&lt;CanvasGroup&gt;().DOFade(1, 0.8f);
 
 exitBtn.GetComponent&lt;CanvasGroup&gt;().DOFade(1, 0.8f).SetDelay(0.5f);
 </code></pre>
 <p><strong>Örnek2:</strong></p>
-<p>Bu örnekte alpaPanelimizin <strong>A</strong> değeri 255</p>
+<p>Bu örnekte alpaPanelimizin canvas groupunda bulunan <strong>alpha</strong> değeri değeri 255</p>
 <pre><code> public GameObject alphaPanel;
  alphaPanel.GetComponent&lt;CanvasGroup&gt;().DOFade(0, 2f);
 </code></pre>
