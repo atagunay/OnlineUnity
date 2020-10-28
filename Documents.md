@@ -30,6 +30,30 @@ exitBtn.GetComponent&lt;CanvasGroup&gt;().DOFade(1, 0.8f).SetDelay(0.5f);
 <pre><code> public GameObject alphaPanel;
  alphaPanel.GetComponent&lt;CanvasGroup&gt;().DOFade(0, 2f);
 </code></pre>
+<h3 id="doscaleint-value-int-duration">DOScale(int value, int duration)</h3>
+<p><strong>DOFade</strong> ile Aynı mantık ile bakacak olursak animasyonlu bir şekilde sahnede belirmesini sağlayan bir fonksiyonumuzdur. İlk değerimiz ulaşacağı son boyutu ikinci değerimiz ise bunu gerçekleştireceği zamanı verir.</p>
+<p><strong>Önemli Not</strong><br>
+Kodun Sonundaki  <strong>SetEase</strong> kısmı da burada anlatılmıştır.</p>
+<p><strong>Örnek1:</strong></p>
+<p>Panelimizin transformunda işlem yapabilmemiz için tanımlamamız gerekmektedir.</p>
+<pre><code>[SerializeField]
+Transform soruPaneli;
+</code></pre>
+<p>Soru panelimizin sahne başladığında görünmez başlamasını istiyorum.</p>
+<pre><code>Void Start()
+{
+soruPaneli.GetComponent&lt;RectTransform&gt;().localScale = new Vector3(0, 0, 0);
+     
+}
+</code></pre>
+<p>Animasyonlu bir şekilde büyümesini sağladığımız fonksiyonumuz</p>
+<pre><code> void SoruPaneliniAc()
+}
+ soruPaneli.GetComponent&lt;RectTransform&gt;().DOScale(1, 0.5f).SetEase(Ease.OutBack);
+}
+</code></pre>
+<h3 id="seteaseease.parametre">SetEase(Ease.parametre)</h3>
+<p>Kodumuzun sonuna yazcağımız bu ilave kod son bir animasyon ekleyerek işlerinizi çok daha profesyonel göstermektedir. Deneyerek farkı görebilirsiniz. Kodumuzda kullandığımız <strong>SetEase(Ease.OutBack)</strong> kısmı panelimizin sahnede alacağı son scale değeri 1 ise bunu 1.01 yapıp tekrar 1 e döndürerek son bir hareket kazandırmış oluyor.</p>
 <hr>
 <blockquote>
 <h2 id="game-manager"><strong>GAME MANAGER</strong></h2>
@@ -144,4 +168,26 @@ Transform karelerPaneli;
 <p>Fonksiyon aldığı değer kadar süre sayar</p>
 <p><strong>Örnek1:</strong><br>
 WaitForSeconds(3f);</p>
+<h2 id="random--sayı-üretme">Random  Sayı Üretme</h2>
+<h3 id="random.rangeint-dahil-int-dahil-değil">Random.Range(int dahil, int dahil değil)</h3>
+<p><strong>Örnek1:</strong><br>
+int x = Random.Range(1,13);</p>
+<p>1&lt;= x &lt; 13</p>
+<h2 id="bir-nesnenin-çocuk-nesnesine-ulaşmak">Bir Nesnenin Çocuk Nesnesine Ulaşmak</h2>
+<h3 id="transform.getchildint-index"># Transform.GetChild(int index)</h3>
+<p><strong>Not:</strong><br>
+Getchild(0) ile ilk elemana erişirsin.<br>
+int index = 0 =&gt; ilk eleman<br>
+int index = 1 =&gt; ikinci eleman</p>
+<p><strong>Örnek 1:</strong></p>
+<pre><code> public void Example()
+
+    {
+//Assigns the transform of the first child of the Game Object this script is attached to.
+meeple = this.gameObject.transform.GetChild(0);  
+  
+//Assigns the first child of the first child of the Game Object this script is attached to.
+grandChild = this.gameObject.transform.GetChild(0).GetChild(0).gameObject;
+}
+</code></pre>
 
