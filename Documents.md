@@ -89,6 +89,7 @@ GameObject kup;
 {
     StartCoroutine(GorulunurluguKapat());
     ds
+  
 }
 </code></pre>
 <p>Bu fonksiyonlarda <strong>yield</strong> anahtar kelimedir asıl görev onların üstündedir onlarsız yazamayız<br>
@@ -192,6 +193,8 @@ grandChild = this.gameObject.transform.GetChild(0).GetChild(0).gameObject;
 }
 </code></pre>
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NzU5MTk3NCwtMjU5ODEzMzddfQ==
+eyJoaXN0b3J5IjpbLTE2NDk2ODAyNTQsMjA4NzU5MTk3NCwtMj
+U5ODEzMzddfQ==
 -->
