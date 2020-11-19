@@ -199,7 +199,9 @@ grandChild = this.gameObject.transform.GetChild(0).GetChild(0).gameObject;
 
     kare.transform.GetComponent<Button>().onClick.AddListener(() => butonaBasildi());
 
+# C# FUNDEMENTAL
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxOTA0NDMzNiwtMTY0OTY4MDI1NCwyMD
-g3NTkxOTc0LC0yNTk4MTMzN119
+eyJoaXN0b3J5IjpbNjQ1MjI1NjYsLTcxOTA0NDMzNiwtMTY0OT
+Y4MDI1NCwyMDg3NTkxOTc0LC0yNTk4MTMzN119
 -->
