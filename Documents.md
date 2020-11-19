@@ -193,9 +193,13 @@ grandChild = this.gameObject.transform.GetChild(0).GetChild(0).gameObject;
 }
 </code></pre>
 
-## Butona OnClick Özelliği Dinamik Olarak Atamak
+## Butona OnClick Özelliğini Dinamik Olarak Atamak
+
+**kare** nesnemize basıldığında **butonaBasildi** adlı fonksiyonumuzun çalışmasını istiyoruz.
+
+    kare.transform.GetComponent<Button>().onClick.AddListener(() => butonaBasildi());
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxOTExMzQwOCwtMTY0OTY4MDI1NCwyMD
+eyJoaXN0b3J5IjpbLTcxOTA0NDMzNiwtMTY0OTY4MDI1NCwyMD
 g3NTkxOTc0LC0yNTk4MTMzN119
 -->
