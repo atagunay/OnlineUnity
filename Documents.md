@@ -205,13 +205,15 @@ grandChild = this.gameObject.transform.GetChild(0).GetChild(0).gameObject;
 </blockquote>
 
 ## String Bir Değeri İnteger Türüne Dönüştürmek
-B stringini 
-int a;
-string b = "2";
+b stringini integera çevirerek a değişkenine atamasını yaptık
+ 
 
-a = int.Parse(b);
+    int a;
+    string b = "2";
+    
+    a = int.Parse(b);
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTY5MTg4NSwtNzE5MDQ0MzM2LC0xNj
+eyJoaXN0b3J5IjpbMTk0ODg1NTEwMiwtNzE5MDQ0MzM2LC0xNj
 Q5NjgwMjU0LDIwODc1OTE5NzQsLTI1OTgxMzM3XX0=
 -->
