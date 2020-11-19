@@ -204,8 +204,14 @@ grandChild = this.gameObject.transform.GetChild(0).GetChild(0).gameObject;
 <h2 id="game-manager"><strong>C# FUNDEMENTAL</strong></h2>
 </blockquote>
 
-İnteger Bir Değeri İnteger türüne dönüştürm
+## String Bir Değeri İnteger Türüne Dönüştürmek
+B stringini 
+int a;
+string b = "2";
+
+a = int.Parse(b);
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEwODc5MTQwLC03MTkwNDQzMzYsLTE2ND
-k2ODAyNTQsMjA4NzU5MTk3NCwtMjU5ODEzMzddfQ==
+eyJoaXN0b3J5IjpbLTMwNTY5MTg4NSwtNzE5MDQ0MzM2LC0xNj
+Q5NjgwMjU0LDIwODc1OTE5NzQsLTI1OTgxMzM3XX0=
 -->
