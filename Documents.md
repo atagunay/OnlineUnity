@@ -213,7 +213,10 @@ b stringini integera çevirerek a değişkenine atamasını yaptık
     
     a = int.Parse(b);
 
+## Başka Bir Scripten Fonksiyon Çağırmak
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0ODg1NTEwMiwtNzE5MDQ0MzM2LC0xNj
-Q5NjgwMjU0LDIwODc1OTE5NzQsLTI1OTgxMzM3XX0=
+eyJoaXN0b3J5IjpbMTI0NzI1OTAzMiwxOTQ4ODU1MTAyLC03MT
+kwNDQzMzYsLTE2NDk2ODAyNTQsMjA4NzU5MTk3NCwtMjU5ODEz
+MzddfQ==
 -->
