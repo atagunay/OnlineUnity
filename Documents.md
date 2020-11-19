@@ -193,8 +193,9 @@ grandChild = this.gameObject.transform.GetChild(0).GetChild(0).gameObject;
 }
 </code></pre>
 
+## Butona OnClick Özelliği Dinamik Olarak Atamak
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDk2ODAyNTQsMjA4NzU5MTk3NCwtMj
-U5ODEzMzddfQ==
+eyJoaXN0b3J5IjpbLTcxOTExMzQwOCwtMTY0OTY4MDI1NCwyMD
+g3NTkxOTc0LC0yNTk4MTMzN119
 -->
