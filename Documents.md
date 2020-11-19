@@ -215,8 +215,13 @@ b stringini integera çevirerek a değişkenine atamasını yaptık
 
 ## Başka Bir Scripten Fonksiyon Çağırmak
 
+Ulaşmak istediğim scrip
+    KalannHaklarManager kalannHaklarManager;
+    kalannHaklarManager = Object.FindObjectOfType<KalannHaklarManager>();
+    kalannHaklarManager.kalanHaklariKontrolEt(kalanHak);
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NzI1OTAzMiwxOTQ4ODU1MTAyLC03MT
+eyJoaXN0b3J5IjpbMTgxNzAxNjA1NSwxOTQ4ODU1MTAyLC03MT
 kwNDQzMzYsLTE2NDk2ODAyNTQsMjA4NzU5MTk3NCwtMjU5ODEz
 MzddfQ==
 -->
