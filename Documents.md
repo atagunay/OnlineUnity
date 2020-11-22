@@ -8,8 +8,16 @@
 <h2 id="user-interface"><strong>USER INTERFACE</strong></h2>
 
 ## Skor Ekranının Hazırlanması
-Skor işlemleri genellikle iki script kullanılarak yapılır. Bunlardan biri puan algoritmasını yazdığımız **puanManager** diğeri ise oyunumuzun puanları arttırmasını istediğimiz gameManager scrip
+Skor işlemleri genellikle iki script kullanılarak yapılır. Bunlardan biri puan algoritmasını yazdığımız **puanManager** diğeri ise oyunumuzun skoru arttırmasını istediğimiz **gameManager** isimli scriptler olsun.
 
+**puanManager :**
+
+İlk 
+    int toplamPuan;
+    int puanArtisi;
+    
+    [SerializeField]
+    Text puanText;
 
 
 </blockquote>
@@ -229,8 +237,9 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
     b = Object.FindObjectOfType<a>();
     b.CAGIRMAK ISTEDIGIM FONKSIYONUMUN ADI;
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDYwOTIwMCwtMTY0NjkzNTQzNCwxOT
-Q4ODU1MTAyLC03MTkwNDQzMzYsLTE2NDk2ODAyNTQsMjA4NzU5
-MTk3NCwtMjU5ODEzMzddfQ==
+eyJoaXN0b3J5IjpbMzQ0MzcyODIzLC0xNjQ2OTM1NDM0LDE5ND
+g4NTUxMDIsLTcxOTA0NDMzNiwtMTY0OTY4MDI1NCwyMDg3NTkx
+OTc0LC0yNTk4MTMzN119
 -->
