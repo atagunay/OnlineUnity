@@ -24,13 +24,24 @@ UI İŞLEMLERİ İÇİN UI KÜTÜPHANESİ EKLEMEMİZ GEREKMEKTEDİR !!!
     [SerializeField]
     Text puanText;
 
-Start fonksiyonumuzda başlangıç skorumuzu sıfır olarak tanımladıktan sonra bunu UI da yazdırıy
+Start fonksiyonumuzda başlangıç skorumuzu sıfır olarak tanımladıktan sonra bunu UI da yazdırıyoruz.
 
      void Start()
         {
             toplamPuan = 0;
             puanText.text = toplamPuan.ToString();
             
+        }
+
+
+Tanımladığımız void fonksiyonumuzu zamanı geldiğinde çağırarak skorumuzun artm
+
+    public void puanArttir()
+        {
+    
+            toplamPuan = toplamPuan + 5;
+            puanText.text = toplamPuan.ToString();
+    
         }
 
 </blockquote>
@@ -252,7 +263,7 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1ODUzMzk5MywtMTY0NjkzNTQzNCwxOT
+eyJoaXN0b3J5IjpbLTIwNTk2NDI3NCwtMTY0NjkzNTQzNCwxOT
 Q4ODU1MTAyLC03MTkwNDQzMzYsLTE2NDk2ODAyNTQsMjA4NzU5
 MTk3NCwtMjU5ODEzMzddfQ==
 -->
