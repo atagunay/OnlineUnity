@@ -7,7 +7,8 @@
 <blockquote>
 <h2 id="user-interface"><strong>USER INTERFACE</strong></h2>
 
-## Skor Ekranının Haz
+## Skor Ekranının Hazırlanması
+Skor işlemleri genellikle iki script kullanılarak yapılır. Bunlardan biri puan algoritmasını yazdığımız **puanManager** diğeri ise oyunumuzun puanları arttırmasını istediğimiz gameManager scrip
 
 
 
@@ -229,7 +230,7 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
     b.CAGIRMAK ISTEDIGIM FONKSIYONUMUN ADI;
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDE4MTIwMTksLTE2NDY5MzU0MzQsMT
-k0ODg1NTEwMiwtNzE5MDQ0MzM2LC0xNjQ5NjgwMjU0LDIwODc1
-OTE5NzQsLTI1OTgxMzM3XX0=
+eyJoaXN0b3J5IjpbLTQ1MDYwOTIwMCwtMTY0NjkzNTQzNCwxOT
+Q4ODU1MTAyLC03MTkwNDQzMzYsLTE2NDk2ODAyNTQsMjA4NzU5
+MTk3NCwtMjU5ODEzMzddfQ==
 -->
