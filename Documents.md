@@ -12,13 +12,18 @@ Skor işlemleri genellikle iki script kullanılarak yapılır. Bunlardan biri pu
 
 **puanManager :**
 
-İlk olarak toplam puanımızı arttıracağımız ve yeri geldiğinde yazdıracağımız **toplamPuan** değişkenini, daha sonra her seferinde kaç puan arttırmak istediğimizi tuttuğumuz **puanArtisi** değişkenini ve en son da skorumuzu ****UI**' a** yansıtmamız için Text türünden bir puanText değişkenini tanımlıyoruz.
+UI İŞLEMLERİ İÇİN UI KÜTÜPHANESİ EKLEMEMİZ GEREKMEKTEDİR !!!
+
+    using UnityEngine.UI;
+
+İlk olarak toplam puanımızı arttıracağımız ve yeri geldiğinde yazdıracağımız **toplamPuan** değişkenini, daha sonra her seferinde kaç puan arttırmak istediğimizi tuttuğumuz **puanArtisi** değişkenini ve en son da skorumuzu ****UI**' a** yansıtmamız için **Text** türünden bir **puanText** değişkenini tanımlıyoruz.
 
     int toplamPuan;
     int puanArtisi;
     
     [SerializeField]
     Text puanText;
+
 
 
 </blockquote>
@@ -240,7 +245,7 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzExNzYxMjQ2LC0xNjQ2OTM1NDM0LDE5ND
+eyJoaXN0b3J5IjpbODM1MDg0ODUzLC0xNjQ2OTM1NDM0LDE5ND
 g4NTUxMDIsLTcxOTA0NDMzNiwtMTY0OTY4MDI1NCwyMDg3NTkx
 OTc0LC0yNTk4MTMzN119
 -->
