@@ -112,10 +112,14 @@ soruPaneli.GetComponent&lt;RectTransform&gt;().localScale = new Vector3(0, 0, 0)
 
 ## Bir Butonu Pasif Hale Getirmek (Buton Gözükecek Ama Basılamayacak)
 
-Kullanıcın bastığı butonun hangisi olduğunu öğrenmek işin bu kodları yazıyoruz.
+[EXTRA]Kullanıcın bastığı butonun hangisi olduğunu öğrenmek işin bu kodları yazıyoruz.
 
     Game Object geçerliKale;
     geçerliKare = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject;
+
+Asıl meselemiz olan butonu pasif hale getirme
+
+    geçerliKare.transform.GetComponent<Button>().interactable = false;
 
 <hr>
 
@@ -301,8 +305,8 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDI5ODczMzksLTQ4NjY2MTk0MCwtMz
-I0ODc2MjAzLC0xNjQ2OTM1NDM0LDE5NDg4NTUxMDIsLTcxOTA0
-NDMzNiwtMTY0OTY4MDI1NCwyMDg3NTkxOTc0LC0yNTk4MTMzN1
-19
+eyJoaXN0b3J5IjpbMTkxMjg4OTQ5OSwtNDg2NjYxOTQwLC0zMj
+Q4NzYyMDMsLTE2NDY5MzU0MzQsMTk0ODg1NTEwMiwtNzE5MDQ0
+MzM2LC0xNjQ5NjgwMjU0LDIwODc1OTE5NzQsLTI1OTgxMzM3XX
+0=
 -->
