@@ -51,6 +51,12 @@ Tanımladığımız void fonksiyonumuzu zamanı geldiğinde çağırarak skorumu
 
     PuanManager puanmanager;
 
+Start fonksiyonumuzda tanımladığımız nesneye, scriptimize erişim iznini sağlıyoruz.
+
+    void Start()
+    {
+    	puanmanager = Object.FindObjectOfType<PuanManager>();
+    }
 
 </blockquote>
 <h2 id="animasyon-ekleme">Animasyon Ekleme</h2>
@@ -270,8 +276,9 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
     b.CAGIRMAK ISTEDIGIM FONKSIYONUMUN ADI;
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMjMwMzYxNSwtMTY0NjkzNTQzNCwxOT
+eyJoaXN0b3J5IjpbMTc4MjM0MTg2OSwtMTY0NjkzNTQzNCwxOT
 Q4ODU1MTAyLC03MTkwNDQzMzYsLTE2NDk2ODAyNTQsMjA4NzU5
 MTk3NCwtMjU5ODEzMzddfQ==
 -->
