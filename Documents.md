@@ -257,7 +257,8 @@ grandChild = this.gameObject.transform.GetChild(0).GetChild(0).gameObject;
 
 ## Kullanıcın seçtiği Game Objeyi Öğrenme
 
-Kullanıcın o an etkilişime girdiği, üstüne bastığı game objeyi öğrenm
+Kullanıcın o an etkilişime girdiği, üstüne bastığı game objeyi öğrenmek
+
 	    Game Object OgrenmekIstedgimizGO;
         OgrenmekIstedgimizGO = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject;
 
@@ -289,7 +290,7 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjY1NTIxMiwtMzI0ODc2MjAzLC0xNj
+eyJoaXN0b3J5IjpbLTQ4NjY2MTk0MCwtMzI0ODc2MjAzLC0xNj
 Q2OTM1NDM0LDE5NDg4NTUxMDIsLTcxOTA0NDMzNiwtMTY0OTY4
 MDI1NCwyMDg3NTkxOTc0LC0yNTk4MTMzN119
 -->
