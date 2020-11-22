@@ -6,6 +6,11 @@
 <h1 id="uni̇ty-dökümantasyonu">UNİTY DÖKÜMANTASYONU</h1>
 <blockquote>
 <h2 id="user-interface"><strong>USER INTERFACE</strong></h2>
+
+## Skor Ekranının Haz
+
+
+
 </blockquote>
 <h2 id="animasyon-ekleme">Animasyon Ekleme</h2>
 <h3 id="dofadefloat-bitiş_değeri-float-zamanlama">DOFade(float bitiş_değeri, float zamanlama)</h3>
@@ -224,7 +229,7 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
     b.CAGIRMAK ISTEDIGIM FONKSIYONUMUN ADI;
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDY5MzU0MzQsMTk0ODg1NTEwMiwtNz
-E5MDQ0MzM2LC0xNjQ5NjgwMjU0LDIwODc1OTE5NzQsLTI1OTgx
-MzM3XX0=
+eyJoaXN0b3J5IjpbLTE4NDE4MTIwMTksLTE2NDY5MzU0MzQsMT
+k0ODg1NTEwMiwtNzE5MDQ0MzM2LC0xNjQ5NjgwMjU0LDIwODc1
+OTE5NzQsLTI1OTgxMzM3XX0=
 -->
