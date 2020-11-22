@@ -255,6 +255,10 @@ grandChild = this.gameObject.transform.GetChild(0).GetChild(0).gameObject;
     kare.transform.GetComponent<Button>().onClick.AddListener(() => butonaBasildi());
 
 
+## Kullanıcın seçtiği Game Objeyi Öğrenme
+
+    geçerliKare = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject;
+
 <blockquote>
 <h2 id="game-manager"><strong>C# FUNDEMENTAL</strong></h2>
 </blockquote>
@@ -280,8 +284,9 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNDg3NjIwMywtMTY0NjkzNTQzNCwxOT
-Q4ODU1MTAyLC03MTkwNDQzMzYsLTE2NDk2ODAyNTQsMjA4NzU5
-MTk3NCwtMjU5ODEzMzddfQ==
+eyJoaXN0b3J5IjpbMjA0NzM2MzE5NywtMzI0ODc2MjAzLC0xNj
+Q2OTM1NDM0LDE5NDg4NTUxMDIsLTcxOTA0NDMzNiwtMTY0OTY4
+MDI1NCwyMDg3NTkxOTc0LC0yNTk4MTMzN119
 -->
