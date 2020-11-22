@@ -57,6 +57,9 @@ Start fonksiyonumuzda tanımladığımız nesneye, scriptimize erişim iznini sa
     {
     	puanmanager = Object.FindObjectOfType<PuanManager>();
     }
+Geriye kalan tek şey istediğimiz yerde fonksiyonumuzu şu şekilde çağırmak olacak
+
+     puanmanager.puanArttir();
 
 </blockquote>
 <h2 id="animasyon-ekleme">Animasyon Ekleme</h2>
@@ -278,7 +281,7 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MjM0MTg2OSwtMTY0NjkzNTQzNCwxOT
+eyJoaXN0b3J5IjpbLTMyNDg3NjIwMywtMTY0NjkzNTQzNCwxOT
 Q4ODU1MTAyLC03MTkwNDQzMzYsLTE2NDk2ODAyNTQsMjA4NzU5
 MTk3NCwtMjU5ODEzMzddfQ==
 -->
