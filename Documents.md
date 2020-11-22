@@ -34,7 +34,7 @@ Start fonksiyonumuzda başlangıç skorumuzu sıfır olarak tanımladıktan sonr
         }
 
 
-Tanımladığımız void fonksiyonumuzu zamanı geldiğinde çağırarak skorumuzun artm
+Tanımladığımız void fonksiyonumuzu zamanı geldiğinde çağırarak skorumuzun artmasını sağlayacağız
 
     public void puanArttir()
         {
@@ -43,6 +43,14 @@ Tanımladığımız void fonksiyonumuzu zamanı geldiğinde çağırarak skorumu
             puanText.text = toplamPuan.ToString();
     
         }
+
+
+**gameManager:**
+
+**puanManager** scripttine erişebilmek için tanımlamamızı en üste yapıyoruz.
+
+    PuanManager puanmanager;
+
 
 </blockquote>
 <h2 id="animasyon-ekleme">Animasyon Ekleme</h2>
@@ -263,7 +271,7 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTk2NDI3NCwtMTY0NjkzNTQzNCwxOT
+eyJoaXN0b3J5IjpbLTQwMjMwMzYxNSwtMTY0NjkzNTQzNCwxOT
 Q4ODU1MTAyLC03MTkwNDQzMzYsLTE2NDk2ODAyNTQsMjA4NzU5
 MTk3NCwtMjU5ODEzMzddfQ==
 -->
