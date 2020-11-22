@@ -109,7 +109,14 @@ soruPaneli.GetComponent&lt;RectTransform&gt;().localScale = new Vector3(0, 0, 0)
 </code></pre>
 <h3 id="seteaseease.parametre">SetEase(Ease.parametre)</h3>
 <p>Kodumuzun sonuna yazcağımız bu ilave kod son bir animasyon ekleyerek işlerinizi çok daha profesyonel göstermektedir. Deneyerek farkı görebilirsiniz. Kodumuzda kullandığımız <strong>SetEase(Ease.OutBack)</strong> kısmı panelimizin sahnede alacağı son scale değeri 1 ise bunu 1.01 yapıp tekrar 1 e döndürerek son bir hareket kazandırmış oluyor.</p>
+
+## Bir Butonu Pasif Hale Getirmek (Buton Gözükecek Ama Basılamayacak)
+
+
+
 <hr>
+
+
 <blockquote>
 <h2 id="game-manager"><strong>GAME MANAGER</strong></h2>
 </blockquote>
@@ -290,7 +297,8 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NjY2MTk0MCwtMzI0ODc2MjAzLC0xNj
-Q2OTM1NDM0LDE5NDg4NTUxMDIsLTcxOTA0NDMzNiwtMTY0OTY4
-MDI1NCwyMDg3NTkxOTc0LC0yNTk4MTMzN119
+eyJoaXN0b3J5IjpbLTE4NDYwNzQxOTQsLTQ4NjY2MTk0MCwtMz
+I0ODc2MjAzLC0xNjQ2OTM1NDM0LDE5NDg4NTUxMDIsLTcxOTA0
+NDMzNiwtMTY0OTY4MDI1NCwyMDg3NTkxOTc0LC0yNTk4MTMzN1
+19
 -->
