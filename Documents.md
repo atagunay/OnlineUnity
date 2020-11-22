@@ -12,7 +12,7 @@ Skor işlemleri genellikle iki script kullanılarak yapılır. Bunlardan biri pu
 
 **puanManager :**
 
-İlk olarak toplam puanımızı arttıracağımız ve yeri geldiğinde yazdıracağımız **toplamPuan** değişkenini, daha sonra her seferinde kaç puan arttırmak istediğimizi tuttuğumuz **puanArtisi değişkenş
+İlk olarak toplam puanımızı arttıracağımız ve yeri geldiğinde yazdıracağımız **toplamPuan** değişkenini, daha sonra her seferinde kaç puan arttırmak istediğimizi tuttuğumuz **puanArtisi** değişkenini ve en son da skorumuzu ****UI**' a** yansıtmamız için Text türünden bir puanText değişkenini tanımlıyoruz.
 
     int toplamPuan;
     int puanArtisi;
@@ -240,7 +240,7 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MjUyMjE5NywtMTY0NjkzNTQzNCwxOT
-Q4ODU1MTAyLC03MTkwNDQzMzYsLTE2NDk2ODAyNTQsMjA4NzU5
-MTk3NCwtMjU5ODEzMzddfQ==
+eyJoaXN0b3J5IjpbNzExNzYxMjQ2LC0xNjQ2OTM1NDM0LDE5ND
+g4NTUxMDIsLTcxOTA0NDMzNiwtMTY0OTY4MDI1NCwyMDg3NTkx
+OTc0LC0yNTk4MTMzN119
 -->
