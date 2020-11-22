@@ -257,7 +257,9 @@ grandChild = this.gameObject.transform.GetChild(0).GetChild(0).gameObject;
 
 ## Kullanıcın seçtiği Game Objeyi Öğrenme
 
-    geçerliKare = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject;
+Kullanıcın o an etkilişime girdiği, üstüne bastığı game objeyi öğrenm
+	    Game Object OgrenmekIstedgimizGO;
+        OgrenmekIstedgimizGO = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject;
 
 <blockquote>
 <h2 id="game-manager"><strong>C# FUNDEMENTAL</strong></h2>
@@ -285,8 +287,9 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NzM2MzE5NywtMzI0ODc2MjAzLC0xNj
+eyJoaXN0b3J5IjpbLTIwNjY1NTIxMiwtMzI0ODc2MjAzLC0xNj
 Q2OTM1NDM0LDE5NDg4NTUxMDIsLTcxOTA0NDMzNiwtMTY0OTY4
 MDI1NCwyMDg3NTkxOTc0LC0yNTk4MTMzN119
 -->
