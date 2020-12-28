@@ -129,7 +129,7 @@ Asıl meselemiz olan butonu pasif hale getirme
 </blockquote>
 
 ## Temel Fonksiyonlar
-
+void Update() : Her 
 
 <h2 id="oyundan-çıkış">Oyundan Çıkış</h2>
 <h3 id="application.quit">Application.Quit()</h3>
@@ -309,8 +309,8 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMzAwOTA3MywxOTEyODg5NDk5LC00OD
-Y2NjE5NDAsLTMyNDg3NjIwMywtMTY0NjkzNTQzNCwxOTQ4ODU1
-MTAyLC03MTkwNDQzMzYsLTE2NDk2ODAyNTQsMjA4NzU5MTk3NC
-wtMjU5ODEzMzddfQ==
+eyJoaXN0b3J5IjpbNjU0ODY3ODk0LDE5MTI4ODk0OTksLTQ4Nj
+Y2MTk0MCwtMzI0ODc2MjAzLC0xNjQ2OTM1NDM0LDE5NDg4NTUx
+MDIsLTcxOTA0NDMzNiwtMTY0OTY4MDI1NCwyMDg3NTkxOTc0LC
+0yNTk4MTMzN119
 -->
