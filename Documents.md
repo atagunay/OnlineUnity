@@ -131,7 +131,7 @@ Asıl meselemiz olan butonu pasif hale getirme
 ## Temel Fonksiyonlar
 **void Update()** : Saniyede fps değeri kadar çalışır. Örnek olarak eğer cihazınızın fps değeri 60 ise bu fonksiyon 1 saniyede 60 defa çalıştırılır.
 
-**void FixUpdate()  :** Her saniyede 50 defa çalıştırılır.
+**void FixUpdate()  :** Her saniyede 50 defa çalıştırılır. Sabittir.
 
 <h2 id="oyundan-çıkış">Oyundan Çıkış</h2>
 <h3 id="application.quit">Application.Quit()</h3>
@@ -311,8 +311,9 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMDY3NTI5MiwxNDIxMTQyMDQsNjU0OD
-Y3ODk0LDE5MTI4ODk0OTksLTQ4NjY2MTk0MCwtMzI0ODc2MjAz
-LC0xNjQ2OTM1NDM0LDE5NDg4NTUxMDIsLTcxOTA0NDMzNiwtMT
-Y0OTY4MDI1NCwyMDg3NTkxOTc0LC0yNTk4MTMzN119
+eyJoaXN0b3J5IjpbLTE3MzgzNTgxMDAsMTQzMDY3NTI5MiwxND
+IxMTQyMDQsNjU0ODY3ODk0LDE5MTI4ODk0OTksLTQ4NjY2MTk0
+MCwtMzI0ODc2MjAzLC0xNjQ2OTM1NDM0LDE5NDg4NTUxMDIsLT
+cxOTA0NDMzNiwtMTY0OTY4MDI1NCwyMDg3NTkxOTc0LC0yNTk4
+MTMzN119
 -->
