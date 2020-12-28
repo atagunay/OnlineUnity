@@ -128,6 +128,7 @@ Asıl meselemiz olan butonu pasif hale getirme
 <h2 id="game-manager"><strong>GAME MANAGER</strong></h2>
 </blockquote>
 
+## Temel Fonksiyonlar
 
 
 <h2 id="oyundan-çıkış">Oyundan Çıkış</h2>
@@ -308,8 +309,8 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjk1NjAxNTUsMTkxMjg4OTQ5OSwtND
-g2NjYxOTQwLC0zMjQ4NzYyMDMsLTE2NDY5MzU0MzQsMTk0ODg1
-NTEwMiwtNzE5MDQ0MzM2LC0xNjQ5NjgwMjU0LDIwODc1OTE5Nz
-QsLTI1OTgxMzM3XX0=
+eyJoaXN0b3J5IjpbMTEzMzAwOTA3MywxOTEyODg5NDk5LC00OD
+Y2NjE5NDAsLTMyNDg3NjIwMywtMTY0NjkzNTQzNCwxOTQ4ODU1
+MTAyLC03MTkwNDQzMzYsLTE2NDk2ODAyNTQsMjA4NzU5MTk3NC
+wtMjU5ODEzMzddfQ==
 -->
