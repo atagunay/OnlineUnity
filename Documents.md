@@ -127,6 +127,9 @@ Asıl meselemiz olan butonu pasif hale getirme
 <blockquote>
 <h2 id="game-manager"><strong>GAME MANAGER</strong></h2>
 </blockquote>
+
+
+
 <h2 id="oyundan-çıkış">Oyundan Çıkış</h2>
 <h3 id="application.quit">Application.Quit()</h3>
 <p>Uygulamadan çıkılmasını sağlar.</p>
@@ -305,8 +308,8 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMjg4OTQ5OSwtNDg2NjYxOTQwLC0zMj
-Q4NzYyMDMsLTE2NDY5MzU0MzQsMTk0ODg1NTEwMiwtNzE5MDQ0
-MzM2LC0xNjQ5NjgwMjU0LDIwODc1OTE5NzQsLTI1OTgxMzM3XX
-0=
+eyJoaXN0b3J5IjpbLTIwMjk1NjAxNTUsMTkxMjg4OTQ5OSwtND
+g2NjYxOTQwLC0zMjQ4NzYyMDMsLTE2NDY5MzU0MzQsMTk0ODg1
+NTEwMiwtNzE5MDQ0MzM2LC0xNjQ5NjgwMjU0LDIwODc1OTE5Nz
+QsLTI1OTgxMzM3XX0=
 -->
