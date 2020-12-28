@@ -129,7 +129,9 @@ Asıl meselemiz olan butonu pasif hale getirme
 </blockquote>
 
 ## Temel Fonksiyonlar
-void Update() : He
+**void Update()** : Saniyede fps değeri kadar çalışır. Örnek olarak eğer cihazınızın fps değeri 60 ise bu fonksiyon 1 saniyede 60 defa çalıştırılır.
+
+
 
 <h2 id="oyundan-çıkış">Oyundan Çıkış</h2>
 <h3 id="application.quit">Application.Quit()</h3>
@@ -309,7 +311,7 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODg1ODYwNzYsNjU0ODY3ODk0LDE5MT
+eyJoaXN0b3J5IjpbLTE2MzAxNDgxMDgsNjU0ODY3ODk0LDE5MT
 I4ODk0OTksLTQ4NjY2MTk0MCwtMzI0ODc2MjAzLC0xNjQ2OTM1
 NDM0LDE5NDg4NTUxMDIsLTcxOTA0NDMzNiwtMTY0OTY4MDI1NC
 wyMDg3NTkxOTc0LC0yNTk4MTMzN119
