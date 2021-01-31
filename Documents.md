@@ -7,6 +7,9 @@
 <blockquote>
 <h2 id="user-interface"><strong>USER INTERFACE</strong></h2>
 
+ ## Telefon Çıktıları İçin Güvenli Bölgenin Hazırlanması
+ Telefonların kullanılabilir ekranları değişiklik gösterdiği için oyunlarınızda ki bazı objelerde(buton, text, )  
+
 ## Skor Ekranının Hazırlanması
 Skor işlemleri genellikle iki script kullanılarak yapılır. Bunlardan biri puan algoritmasını yazdığımız **puanManager** diğeri ise oyunumuzun skoru arttırmasını istediğimiz **gameManager** isimli scriptler olsun.
 
@@ -311,9 +314,9 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzgzNTgxMDAsMTQzMDY3NTI5MiwxND
-IxMTQyMDQsNjU0ODY3ODk0LDE5MTI4ODk0OTksLTQ4NjY2MTk0
-MCwtMzI0ODc2MjAzLC0xNjQ2OTM1NDM0LDE5NDg4NTUxMDIsLT
-cxOTA0NDMzNiwtMTY0OTY4MDI1NCwyMDg3NTkxOTc0LC0yNTk4
-MTMzN119
+eyJoaXN0b3J5IjpbMTg1NDc1NTcwNywtMTczODM1ODEwMCwxND
+MwNjc1MjkyLDE0MjExNDIwNCw2NTQ4Njc4OTQsMTkxMjg4OTQ5
+OSwtNDg2NjYxOTQwLC0zMjQ4NzYyMDMsLTE2NDY5MzU0MzQsMT
+k0ODg1NTEwMiwtNzE5MDQ0MzM2LC0xNjQ5NjgwMjU0LDIwODc1
+OTE5NzQsLTI1OTgxMzM3XX0=
 -->
