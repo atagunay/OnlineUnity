@@ -49,7 +49,8 @@
     }
 4-Aktivasyon
 * Canvasın içine boş bir gameobje oluştur.
-* Game objenin pivo
+* Game objenin Rect Transformunu stretch - stretch olarak ayarlayın(tablonun en alt sağ köşesinde bulunur).
+* Rec
 
 ## Skor Ekranının Hazırlanması
 Skor işlemleri genellikle iki script kullanılarak yapılır. Bunlardan biri puan algoritmasını yazdığımız **puanManager** diğeri ise oyunumuzun skoru arttırmasını istediğimiz **gameManager** isimli scriptler olsun.
@@ -357,10 +358,10 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMjgyMDg3OCw4MjAzNDM4NTEsMTcyNj
-QxMzc2LC0xNzM4MzU4MTAwLDE0MzA2NzUyOTIsMTQyMTE0MjA0
-LDY1NDg2Nzg5NCwxOTEyODg5NDk5LC00ODY2NjE5NDAsLTMyND
-g3NjIwMywtMTY0NjkzNTQzNCwxOTQ4ODU1MTAyLC03MTkwNDQz
-MzYsLTE2NDk2ODAyNTQsMjA4NzU5MTk3NCwtMjU5ODEzMzddfQ
-==
+eyJoaXN0b3J5IjpbLTEwMTcwMjM3NTksODIwMzQzODUxLDE3Mj
+Y0MTM3NiwtMTczODM1ODEwMCwxNDMwNjc1MjkyLDE0MjExNDIw
+NCw2NTQ4Njc4OTQsMTkxMjg4OTQ5OSwtNDg2NjYxOTQwLC0zMj
+Q4NzYyMDMsLTE2NDY5MzU0MzQsMTk0ODg1NTEwMiwtNzE5MDQ0
+MzM2LC0xNjQ5NjgwMjU0LDIwODc1OTE5NzQsLTI1OTgxMzM3XX
+0=
 -->
