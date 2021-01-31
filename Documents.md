@@ -10,19 +10,20 @@
  ## Telefon Çıktıları İçin Güvenli Bölgenin Hazırlanması
  Telefonların kullanılabilir ekranları değişiklik gösterdiği için oyunlarınızda ki bazı objelerde(buton, text, başlık, logo, vs.) kayma meydana gelebilir. Bunun önüne geçmek için bir yol var.
 
-Unity editöründe:
+1-Unity editöründe:
 **Window > Package Manager > Advance (Sağ Üst) > Show Preview Packages**
 
-Package Manager:
+2-Package Manager:
 **Install Device Simulator** 
 
+3-Script:
+**Yeni bir script oluşturun ve aşağıdaki kodu yapıştırın**
+
     using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class SafeArea : MonoBehaviour
-{
-
+    using System.Collections.Generic;
+    using UnityEngine;
+    public class SafeArea : MonoBehaviour
+    {
     RectTransform rectTransform;
     Rect safeArea;
 
@@ -45,7 +46,7 @@ public class SafeArea : MonoBehaviour
         rectTransform.anchorMin = minAnchor;
         rectTransform.anchorMax = maxAnchor;
     }
-}
+    }
 
 
 ## Skor Ekranının Hazırlanması
@@ -351,10 +352,12 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NDIyNjAzNSwxNzI2NDEzNzYsLTE3Mz
-gzNTgxMDAsMTQzMDY3NTI5MiwxNDIxMTQyMDQsNjU0ODY3ODk0
-LDE5MTI4ODk0OTksLTQ4NjY2MTk0MCwtMzI0ODc2MjAzLC0xNj
-Q2OTM1NDM0LDE5NDg4NTUxMDIsLTcxOTA0NDMzNiwtMTY0OTY4
-MDI1NCwyMDg3NTkxOTc0LC0yNTk4MTMzN119
+eyJoaXN0b3J5IjpbODIwMzQzODUxLDE3MjY0MTM3NiwtMTczOD
+M1ODEwMCwxNDMwNjc1MjkyLDE0MjExNDIwNCw2NTQ4Njc4OTQs
+MTkxMjg4OTQ5OSwtNDg2NjYxOTQwLC0zMjQ4NzYyMDMsLTE2ND
+Y5MzU0MzQsMTk0ODg1NTEwMiwtNzE5MDQ0MzM2LC0xNjQ5Njgw
+MjU0LDIwODc1OTE5NzQsLTI1OTgxMzM3XX0=
 -->
