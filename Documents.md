@@ -13,7 +13,10 @@
 Unity editöründe:
 **Window > Package Manager > Advance (Sağ Üst) > Show Preview Packages**
 
-Package Manager 
+Package Manager:
+**Install Device Simulator** 
+
+
 
 ## Skor Ekranının Hazırlanması
 Skor işlemleri genellikle iki script kullanılarak yapılır. Bunlardan biri puan algoritmasını yazdığımız **puanManager** diğeri ise oyunumuzun skoru arttırmasını istediğimiz **gameManager** isimli scriptler olsun.
@@ -319,9 +322,9 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA4MDAzMzMzLDE3MjY0MTM3NiwtMTczOD
-M1ODEwMCwxNDMwNjc1MjkyLDE0MjExNDIwNCw2NTQ4Njc4OTQs
-MTkxMjg4OTQ5OSwtNDg2NjYxOTQwLC0zMjQ4NzYyMDMsLTE2ND
-Y5MzU0MzQsMTk0ODg1NTEwMiwtNzE5MDQ0MzM2LC0xNjQ5Njgw
-MjU0LDIwODc1OTE5NzQsLTI1OTgxMzM3XX0=
+eyJoaXN0b3J5IjpbLTE4NDgxOTYzMCwxNzI2NDEzNzYsLTE3Mz
+gzNTgxMDAsMTQzMDY3NTI5MiwxNDIxMTQyMDQsNjU0ODY3ODk0
+LDE5MTI4ODk0OTksLTQ4NjY2MTk0MCwtMzI0ODc2MjAzLC0xNj
+Q2OTM1NDM0LDE5NDg4NTUxMDIsLTcxOTA0NDMzNiwtMTY0OTY4
+MDI1NCwyMDg3NTkxOTc0LC0yNTk4MTMzN119
 -->
