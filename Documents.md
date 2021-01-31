@@ -47,7 +47,9 @@
         rectTransform.anchorMax = maxAnchor;
     }
     }
-
+4-Aktivasyon
+* Canvasın içine boş bir gameobje oluştur.
+* Game objenin pivo
 
 ## Skor Ekranının Hazırlanması
 Skor işlemleri genellikle iki script kullanılarak yapılır. Bunlardan biri puan algoritmasını yazdığımız **puanManager** diğeri ise oyunumuzun skoru arttırmasını istediğimiz **gameManager** isimli scriptler olsun.
@@ -355,9 +357,10 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwMzQzODUxLDE3MjY0MTM3NiwtMTczOD
-M1ODEwMCwxNDMwNjc1MjkyLDE0MjExNDIwNCw2NTQ4Njc4OTQs
-MTkxMjg4OTQ5OSwtNDg2NjYxOTQwLC0zMjQ4NzYyMDMsLTE2ND
-Y5MzU0MzQsMTk0ODg1NTEwMiwtNzE5MDQ0MzM2LC0xNjQ5Njgw
-MjU0LDIwODc1OTE5NzQsLTI1OTgxMzM3XX0=
+eyJoaXN0b3J5IjpbLTgyMjgyMDg3OCw4MjAzNDM4NTEsMTcyNj
+QxMzc2LC0xNzM4MzU4MTAwLDE0MzA2NzUyOTIsMTQyMTE0MjA0
+LDY1NDg2Nzg5NCwxOTEyODg5NDk5LC00ODY2NjE5NDAsLTMyND
+g3NjIwMywtMTY0NjkzNTQzNCwxOTQ4ODU1MTAyLC03MTkwNDQz
+MzYsLTE2NDk2ODAyNTQsMjA4NzU5MTk3NCwtMjU5ODEzMzddfQ
+==
 -->
