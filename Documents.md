@@ -16,6 +16,36 @@ Unity editöründe:
 Package Manager:
 **Install Device Simulator** 
 
+    using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class SafeArea : MonoBehaviour
+{
+
+    RectTransform rectTransform;
+    Rect safeArea;
+
+    Vector2 minAnchor;
+    Vector2 maxAnchor;
+
+    private void Awake()
+    {
+        rectTransform = GetComponent<RectTransform>();
+        safeArea = Screen.safeArea;
+
+        minAnchor = safeArea.position;
+        maxAnchor = minAnchor + safeArea.size;
+
+        minAnchor.x /= Screen.width;
+        minAnchor.y /= Screen.height;
+        maxAnchor.x /= Screen.width;
+        maxAnchor.y /= Screen.height;
+
+        rectTransform.anchorMin = minAnchor;
+        rectTransform.anchorMax = maxAnchor;
+    }
+}
 
 
 ## Skor Ekranının Hazırlanması
@@ -322,7 +352,7 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDgxOTYzMCwxNzI2NDEzNzYsLTE3Mz
+eyJoaXN0b3J5IjpbMTY3NDIyNjAzNSwxNzI2NDEzNzYsLTE3Mz
 gzNTgxMDAsMTQzMDY3NTI5MiwxNDIxMTQyMDQsNjU0ODY3ODk0
 LDE5MTI4ODk0OTksLTQ4NjY2MTk0MCwtMzI0ODc2MjAzLC0xNj
 Q2OTM1NDM0LDE5NDg4NTUxMDIsLTcxOTA0NDMzNiwtMTY0OTY4
