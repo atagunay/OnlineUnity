@@ -50,7 +50,8 @@
 4-Aktivasyon
 * Canvasın içine boş bir gameobje oluştur.
 * Game objenin Rect Transformunu stretch - stretch olarak ayarlayın(tablonun en alt sağ köşesinde bulunur).
-* Rec
+* Left - Right- Top - Bottom - Pos Z değerlerini sıfır yapın.
+* Game ekranındaki game butonuna basıp simulator kısmına geçiş yapın ve set 
 
 ## Skor Ekranının Hazırlanması
 Skor işlemleri genellikle iki script kullanılarak yapılır. Bunlardan biri puan algoritmasını yazdığımız **puanManager** diğeri ise oyunumuzun skoru arttırmasını istediğimiz **gameManager** isimli scriptler olsun.
@@ -358,7 +359,7 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTcwMjM3NTksODIwMzQzODUxLDE3Mj
+eyJoaXN0b3J5IjpbLTE4ODQxNjM1NjksODIwMzQzODUxLDE3Mj
 Y0MTM3NiwtMTczODM1ODEwMCwxNDMwNjc1MjkyLDE0MjExNDIw
 NCw2NTQ4Njc4OTQsMTkxMjg4OTQ5OSwtNDg2NjYxOTQwLC0zMj
 Q4NzYyMDMsLTE2NDY5MzU0MzQsMTk0ODg1NTEwMiwtNzE5MDQ0
