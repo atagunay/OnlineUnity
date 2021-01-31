@@ -11,7 +11,9 @@
  Telefonların kullanılabilir ekranları değişiklik gösterdiği için oyunlarınızda ki bazı objelerde(buton, text, başlık, logo, vs.) kayma meydana gelebilir. Bunun önüne geçmek için bir yol var.
 
 Unity editöründe:
-**Window > Packet Manager > Advance (Sağ Üst) > Advanced Project Settings**  
+**Window > Package Manager > Advance (Sağ Üst) > Show Preview Packages**
+
+Package Manager 
 
 ## Skor Ekranının Hazırlanması
 Skor işlemleri genellikle iki script kullanılarak yapılır. Bunlardan biri puan algoritmasını yazdığımız **puanManager** diğeri ise oyunumuzun skoru arttırmasını istediğimiz **gameManager** isimli scriptler olsun.
@@ -317,9 +319,9 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNjQxMzc2LC0xNzM4MzU4MTAwLDE0Mz
-A2NzUyOTIsMTQyMTE0MjA0LDY1NDg2Nzg5NCwxOTEyODg5NDk5
-LC00ODY2NjE5NDAsLTMyNDg3NjIwMywtMTY0NjkzNTQzNCwxOT
-Q4ODU1MTAyLC03MTkwNDQzMzYsLTE2NDk2ODAyNTQsMjA4NzU5
-MTk3NCwtMjU5ODEzMzddfQ==
+eyJoaXN0b3J5IjpbMzA4MDAzMzMzLDE3MjY0MTM3NiwtMTczOD
+M1ODEwMCwxNDMwNjc1MjkyLDE0MjExNDIwNCw2NTQ4Njc4OTQs
+MTkxMjg4OTQ5OSwtNDg2NjYxOTQwLC0zMjQ4NzYyMDMsLTE2ND
+Y5MzU0MzQsMTk0ODg1NTEwMiwtNzE5MDQ0MzM2LC0xNjQ5Njgw
+MjU0LDIwODc1OTE5NzQsLTI1OTgxMzM3XX0=
 -->
