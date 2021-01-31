@@ -8,7 +8,10 @@
 <h2 id="user-interface"><strong>USER INTERFACE</strong></h2>
 
  ## Telefon Çıktıları İçin Güvenli Bölgenin Hazırlanması
- Telefonların kullanılabilir ekranları değişiklik gösterdiği için oyunlarınızda ki bazı objelerde(buton, text, )  
+ Telefonların kullanılabilir ekranları değişiklik gösterdiği için oyunlarınızda ki bazı objelerde(buton, text, başlık, logo, vs.) kayma meydana gelebilir. Bunun önüne geçmek için bir yol var.
+
+Unity editöründe:
+**Window > packet manager**  
 
 ## Skor Ekranının Hazırlanması
 Skor işlemleri genellikle iki script kullanılarak yapılır. Bunlardan biri puan algoritmasını yazdığımız **puanManager** diğeri ise oyunumuzun skoru arttırmasını istediğimiz **gameManager** isimli scriptler olsun.
@@ -314,7 +317,7 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDc1NTcwNywtMTczODM1ODEwMCwxND
+eyJoaXN0b3J5IjpbLTk3NzEzNDg3MSwtMTczODM1ODEwMCwxND
 MwNjc1MjkyLDE0MjExNDIwNCw2NTQ4Njc4OTQsMTkxMjg4OTQ5
 OSwtNDg2NjYxOTQwLC0zMjQ4NzYyMDMsLTE2NDY5MzU0MzQsMT
 k0ODg1NTEwMiwtNzE5MDQ0MzM2LC0xNjQ5NjgwMjU0LDIwODc1
