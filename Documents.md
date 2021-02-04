@@ -418,8 +418,12 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
     b.CAGIRMAK ISTEDIGIM FONKSIYONUMUN ADI;
     
 ## Script Optimizasyonu
--   **[16]* Scriptlerinizde içi boş Unity fonksiyonları bırakmayın (özellike  **Update**,  **LateUpdate**  ve  **FixedUpdate**). Bu fonksiyonlar  **Unity Script Reference**‘de  **MonoBehaviour**  altında  **Messages**  olarak listelenir ve scriptlerinizde bu fonksiyonlardan herhangi birisi varsa, o fonksiyon içi boş olsa bile çağrılır. Update, LateUpdate ve FixedUpdate fonksiyonları oyun sırasında defalarca kez çağrıldığı için de özellikle bu fonksiyonlar konusunda özen gösterin: fonksiyonu kullanmıyor musunuz? O zaman kodunuzdan silin.
+-    Scriptlerinizde içi boş Unity fonksiyonları bırakmayın (özellike  **Update**,  **LateUpdate**  ve  **FixedUpdate**). Bu fonksiyonlar  **Unity Script Reference**‘de  **MonoBehaviour**  altında  **Messages**  olarak listelenir ve scriptlerinizde bu fonksiyonlardan herhangi birisi varsa, o fonksiyon içi boş olsa bile çağrılır. Update, LateUpdate ve FixedUpdate fonksiyonları oyun sırasında defalarca kez çağrıldığı için de özellikle bu fonksiyonlar konusunda özen gösterin: fonksiyonu kullanmıyor musunuz? O zaman kodunuzdan silin.
 -   Kodunuzda bir component’e birden çok kez erişiyorsanız, o component’e her seferinde  **GetComponent**  ile erişmek yerine onu bir değişkenin içinde tutun ve sonraki seferlerde bu değişkeni kullanın.
+
+- **GameObject.Find** ile sahnedeki bir objeye erişmek yavaş bir işlemdir. Bunun daha optimize versiyonu **GameObject.FindWithTag**‘dır. Ancak daha daha iyi bir optimizasyon, ilgili objeyi bir değişkende tutmaktır. Özellikle **Object.FindObjectOfType** kullanıyorsanız bu optimizasyon çok daha önem arz etmektedir.
+- **Camera.main** değişkeni, sahnedeki kameraya kolayca erişebilmenize olanak sağlar ama arkaplanda `GameObject.FindWithTag("Main Camera")` fonksiyonunu çağırır. Yani Camera.main’e sıklıkla erişiyorsanız, sonucu bir değişkene atıp o değişkeni kullanın.
+- 
 
 
 
@@ -432,7 +436,7 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NzY3Nzk4MSwxNjg2NDAzNjMwLC01Nj
+eyJoaXN0b3J5IjpbLTc0ODUwNzUyOSwxNjg2NDAzNjMwLC01Nj
 Q0NDMxNzgsMTU2MzQ5OTg3NiwtMTAyMTE0ODQyNCw4MjAzNDM4
 NTEsMTcyNjQxMzc2LC0xNzM4MzU4MTAwLDE0MzA2NzUyOTIsMT
 QyMTE0MjA0LDY1NDg2Nzg5NCwxOTEyODg5NDk5LC00ODY2NjE5
