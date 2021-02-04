@@ -329,7 +329,29 @@ Kullanıcın o an etkilişime girdiği, üstüne bastığı game objeyi öğrenm
 	    Game Object OgrenmekIstedgimizGO;
         OgrenmekIstedgimizGO = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject;
 
-### Popüler DFonksiyonlar
+## Popüler Dotween Fonksiyonları
+
+**transform.DOLocalMove( Vector3 hedefLocalPosition, float sure ):**  Transform objesinin  **localPosition**  değerini (Inspector’daki  _Position_  değeri) _sure_ saniye içerisinde  _hedefLocalPosition_ yapar. Örneğin 1.5 saniyede localPosition’ı  _0,0,0_  yapmak için:  `transform.DOLocalMove( new Vector3( 0f, 0f, 0f ), 1.5f );`
+
+**transform.DOLocalMoveX( float hedefXLocalPosition, float sure ):**  Transform objesinin localPosition’ının X değerini değiştirir. Y ve Z eksenleri için de ayrı fonksiyonlar bulunmaktadır.
+
+**transform.DOMove( Vector3 hedefPosition, float sure ):**  Transform objesinin  **position**  değerini değiştirir. DOLocalMove’a benzer şekilde, bu fonksiyonun da  **DOMoveX**,  **DOMoveY**  ve  **DOMoveZ**  versiyonları vardır.
+
+**transform.DOLocalRotate( Vector3 hedefLocalEulerAngles, float sure ):**  Transform objesinin  **localEulerAngles**  değerini (Inspector’daki  _Rotation_  değeri) değiştirir. Direkt **eulerAngles**  için ise  **DORotate**  fonksiyonu vardır.
+
+**transform.DOScale( Vector3 hedefLocalScale, float sure ):**  Transform objesinin  **localScale**  değerini (Inspector’daki  _Scale_  değeri) değiştirir. Sadece X, Y ve Z eksenleri için de ayrı versiyonları vardır.
+
+**kamera.DOShakePosition( float sure, float guc ):**  Kameranın pozisyonunu  _sure_  saniye boyunca  _guc_  şiddetinde titreştirir (örneğin oyunda bomba patlayınca kullanılabilir). Kameranın rotasyonunu titreştirmek için ise  **kamera.DOShakeRotation** fonksiyonu vardır. Pozisyonu titreştirirken guc olarak 0.2 gibi ufak bir miktar girerken, rotasyonu titreştirirken ise 30.0 gibi daha büyük bir miktar girmenizi tavsiye ederim.
+
+**materyal.DOColor( Color hedefRenk, float sure ):**  Materyalin rengini değiştirir. Teknik olarak konuşmak gerekirse, materyalin shader’ındaki “__Color_” isimli değişkenin değerini değiştirir. Eğer başka bir shader değişkeninin değerini değiştirmek istiyorsanız,  **DOColor( Color hedefRenk, string degiskenAdi, float sure )**  fonksiyonunu kullanabilirsiniz.
+
+**materyal.DOFade( float hedefAlpha, float sure ):**  Materyalin renginin sadece  **alpha**  değerini (saydamlığını) değiştirir. DOColor’da olduğu gibi, bu fonksiyonun da  _degiskenAdi_  alan bir versiyonu vardır.
+
+**uiElemani.DOColor( Color hedefRenk, float sure ):**  Bir UI elemanının rengini değiştirir. Sadece rengin alpha değerini değiştirmek için  **DOFade**  fonksiyonu kullanılabilir.
+
+**DOTween.Kill( object hedefObje, bool tweeniTamamla = false ):**  _hedefObje_‘nin üzerinde çalışan tüm tween’leri elle sonlandırmaya yarar. Eğer  _tweeniTamamla_‘nın değeri _true_  ise, tween’ler sonlandırılmadan önce hedef değerleri hedefObje’ye uygulanır.
+
+**DOTween.KillAll( bool tweeniTamamla ):**  Çalışmakta olan tüm tween’leri sonlandırır.
 
 <blockquote>
 <h2 id="game-manager"><strong>C# FUNDEMENTAL</strong></h2>
@@ -406,7 +428,7 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MDE3MTY2OCwtNTY0NDQzMTc4LDE1Nj
+eyJoaXN0b3J5IjpbMTY4NjQwMzYzMCwtNTY0NDQzMTc4LDE1Nj
 M0OTk4NzYsLTEwMjExNDg0MjQsODIwMzQzODUxLDE3MjY0MTM3
 NiwtMTczODM1ODEwMCwxNDMwNjc1MjkyLDE0MjExNDIwNCw2NT
 Q4Njc4OTQsMTkxMjg4OTQ5OSwtNDg2NjYxOTQwLC0zMjQ4NzYy
