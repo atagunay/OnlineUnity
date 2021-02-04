@@ -342,10 +342,29 @@ Bu dersimizde, **Unity 3D**‘de bir objenin sahneler (scene) arası geçiş yap
 
 **2-**  Bölüme restart atınca müzik objesinden elinizde iki tane oluyor: birisi önceki scene’den gelen ve çalmaya devam eden müzik objesi, öteki ise scene’e restart atınca sıfırdan oluşan müzik objesi. Bu sıfırdan oluşan müzik objesinin çalmasını istemiyoruz (**singleton prensibi**)
 
-
 Anlayacağınız üzere, **singleton prensibi bir objeden aynı anda sadece bir tane olmasını (ve bu objenin de scene’ler arası geçiş yaparken bizimle gelen obje olmasını) sağlar**. Saydığım bu iki özelliği de oyununuzda uygulamak çok basit.
 
 **SingletonMuzik** adında yeni bir  **C#** script oluşturup bunu müzik objenize verin ve ardından scripti şöyle değiştirin:
+
+    using UnityEngine;
+  
+    public class SingletonMuzik : MonoBehaviour
+    {
+        private static SingletonMuzik obje = null;
+      
+    void Awake()
+    {
+        if( obje == null )
+        {
+            obje = this;
+            DontDestroyOnLoad( this );
+        }
+        else if( this != obje )
+        {
+            Destroy( gameObject );
+        }
+    }
+    }
 
 ## String Bir Değeri İnteger Türüne Dönüştürmek
 b stringini integera çevirerek a değişkenine atamasını yaptık
@@ -375,11 +394,12 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDIzMTE3NjAsLTEwMjExNDg0MjQsOD
-IwMzQzODUxLDE3MjY0MTM3NiwtMTczODM1ODEwMCwxNDMwNjc1
-MjkyLDE0MjExNDIwNCw2NTQ4Njc4OTQsMTkxMjg4OTQ5OSwtND
-g2NjYxOTQwLC0zMjQ4NzYyMDMsLTE2NDY5MzU0MzQsMTk0ODg1
-NTEwMiwtNzE5MDQ0MzM2LC0xNjQ5NjgwMjU0LDIwODc1OTE5Nz
-QsLTI1OTgxMzM3XX0=
+eyJoaXN0b3J5IjpbMTU2MzQ5OTg3NiwtMTAyMTE0ODQyNCw4Mj
+AzNDM4NTEsMTcyNjQxMzc2LC0xNzM4MzU4MTAwLDE0MzA2NzUy
+OTIsMTQyMTE0MjA0LDY1NDg2Nzg5NCwxOTEyODg5NDk5LC00OD
+Y2NjE5NDAsLTMyNDg3NjIwMywtMTY0NjkzNTQzNCwxOTQ4ODU1
+MTAyLC03MTkwNDQzMzYsLTE2NDk2ODAyNTQsMjA4NzU5MTk3NC
+wtMjU5ODEzMzddfQ==
 -->
