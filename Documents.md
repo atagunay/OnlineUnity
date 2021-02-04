@@ -423,7 +423,7 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 - **GameObject.Find** ile sahnedeki bir objeye erişmek yavaş bir işlemdir. Bunun daha optimize versiyonu **GameObject.FindWithTag**‘dır. Ancak daha daha iyi bir optimizasyon, ilgili objeyi bir değişkende tutmaktır. Özellikle **Object.FindObjectOfType** kullanıyorsanız bu optimizasyon çok daha önem arz etmektedir.
 - **Camera.main** değişkeni, sahnedeki kameraya kolayca erişebilmenize olanak sağlar ama arkaplanda `GameObject.FindWithTag("Main Camera")` fonksiyonunu çağırır. Yani Camera.main’e sıklıkla erişiyorsanız, sonucu bir değişkene atıp o değişkeni kullanın.
-- 
+-   Oyununuzun başında  **Application.targetFrameRate**‘e bir değer verin. Bu değişken, oyunun hedeflediği FPS değerini belirler. Diyelim değerini 60 yaparsanız, oyun 60 FPS’in üzerine çıkmaz. Oyunun 120 FPS’te çalıştırılmasına göre 60 FPS’te çalıştırılması, özellikle mobil cihazlarda bataryayı daha yavaş harcamaya, cihazın daha yavaş ısınmasına ve CPU’nun daha az yorulmasına yardımcı olur. Mobil cihazlarda targetFrameRate’i mümkünse 30, oyununuz göze çok akıcı gelmiyorsa da 60 yapın. Daha da yüksek bir rakamın size bir faydası olmayacaktır.
 
 
 
@@ -436,7 +436,7 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0ODUwNzUyOSwxNjg2NDAzNjMwLC01Nj
+eyJoaXN0b3J5IjpbMTIxMTY4OTQ5NiwxNjg2NDAzNjMwLC01Nj
 Q0NDMxNzgsMTU2MzQ5OTg3NiwtMTAyMTE0ODQyNCw4MjAzNDM4
 NTEsMTcyNjQxMzc2LC0xNzM4MzU4MTAwLDE0MzA2NzUyOTIsMT
 QyMTE0MjA0LDY1NDg2Nzg5NCwxOTEyODg5NDk5LC00ODY2NjE5
