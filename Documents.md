@@ -366,6 +366,14 @@ Anlayacağınız üzere, **singleton prensibi bir objeden aynı anda sadece bir 
     }
     }
 
+Artık levela restart attığınızda müzik kaldığı yerden çalmaya devam edecek. Harika!
+
+Peki bu birkaç satırlık script nasıl oluyor da bu işi başarıyor? Şöyle ki, elimizde  **SingletonMuzik**  türünde  **static**  bir değişken var: “**obje**“. Bu static değişkenin ilk değeri “**null**“. “obje” değişkenimizin görevi, scene’ler arası geçiş yapan müzik objesindeki SingletonMuzik scriptini depolamak. Static değişkenlerde şöyle bir şey var ki  **bir static değişkenin ilk değerini alması sadece bir kere gerçekleşir**. Yani “obje” değişkeni, script ilk kez çalıştırıldığında null değeri alır ama sonradan levela restart atıp scriptin yeniden çalıştırılmasını sağlasak da “obje”nin değeri tekrar otomatik olarak null’a  **ayarlanmaz**!
+
+**Awake**  fonksiyonu scene açıldığında  **tek seferlik**  çalıştırılır, tıpkı  **Start**  fonksiyonu gibi. Tek fark, Awake fonksiyonu Start fonksiyonundan  **daha önce**  çalıştırılır. Bu fonksiyonda “**obje**“nin değerinin  **null**  olup olmadığına bakıyoruz. Eğer null ise, bunun anlamı henüz bizimle scene’ler arası geçiş yapan bir müzik objesi yok demektir (bir başka deyişle oyunu yeni başlatmışız demektir). Bu durumda obje’ye değer olarak scriptin kendisini (this) veriyoruz ve bu scriptin atandığı müzik objesinin scene’ler arası geçişlerde yok olmamasını sağlıyoruz: “**DontDestroyOnLoad(this);**“.
+
+Oyuna restart atınca elimizde iki müzik objesi oluyor: bizimle scene’ler arası geçiş yapan obje ve scene açıldığında sıfırdan oluşturulan müzik objesi.  **Biz sıfırdan oluşturulan müzik objesinin çalmasını istemiyoruz**. Neyse ki scriptin  **Awake**  fonksiyonundaki “**else if**” koşulu bunu bizim için yapıyor: müzik objesindeki  **SingletonMuzik**  scriptinin (**this**), “**obje**” değişkeninde depolanan script ile aynı olup olmadığına bakıyoruz. Hayır, aynı değil çünkü “obje” değişkeninde depolanan SingletonMuzik scripti, bizimle scene’ler arası geçiş yapan müzik objesindeki SingletonMuzik scripti. Bu durumda scene açıldığında yeniden oluşturulan müzik objesini “**Destroy( gameObject );**” fonksiyonu yardımıyla siliyoruz ve  elimizde sadece scene’ler arası geçiş yapan müzik objesi kalmış oluyor.
+
 ## String Bir Değeri İnteger Türüne Dönüştürmek
 b stringini integera çevirerek a değişkenine atamasını yaptık
  
@@ -396,10 +404,10 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MzQ5OTg3NiwtMTAyMTE0ODQyNCw4Mj
-AzNDM4NTEsMTcyNjQxMzc2LC0xNzM4MzU4MTAwLDE0MzA2NzUy
-OTIsMTQyMTE0MjA0LDY1NDg2Nzg5NCwxOTEyODg5NDk5LC00OD
-Y2NjE5NDAsLTMyNDg3NjIwMywtMTY0NjkzNTQzNCwxOTQ4ODU1
-MTAyLC03MTkwNDQzMzYsLTE2NDk2ODAyNTQsMjA4NzU5MTk3NC
-wtMjU5ODEzMzddfQ==
+eyJoaXN0b3J5IjpbLTU2NDQ0MzE3OCwxNTYzNDk5ODc2LC0xMD
+IxMTQ4NDI0LDgyMDM0Mzg1MSwxNzI2NDEzNzYsLTE3MzgzNTgx
+MDAsMTQzMDY3NTI5MiwxNDIxMTQyMDQsNjU0ODY3ODk0LDE5MT
+I4ODk0OTksLTQ4NjY2MTk0MCwtMzI0ODc2MjAzLC0xNjQ2OTM1
+NDM0LDE5NDg4NTUxMDIsLTcxOTA0NDMzNiwtMTY0OTY4MDI1NC
+wyMDg3NTkxOTc0LC0yNTk4MTMzN119
 -->
