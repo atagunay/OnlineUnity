@@ -333,6 +333,11 @@ Kullanıcın o an etkilişime girdiği, üstüne bastığı game objeyi öğrenm
 <h2 id="game-manager"><strong>C# FUNDEMENTAL</strong></h2>
 </blockquote>
 
+## Singleton Prensibi
+Bu dersimizde, **Unity 3D**‘de bir objenin sahneler (scene) arası geçiş yapmasını ve ne olursa olsun o objeden aynı anda sadece bir tane olmasını nasıl sağlayacağınızı göreceğiz.
+
+
+
 ## String Bir Değeri İnteger Türüne Dönüştürmek
 b stringini integera çevirerek a değişkenine atamasını yaptık
  
@@ -360,10 +365,10 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjExNDg0MjQsODIwMzQzODUxLDE3Mj
-Y0MTM3NiwtMTczODM1ODEwMCwxNDMwNjc1MjkyLDE0MjExNDIw
-NCw2NTQ4Njc4OTQsMTkxMjg4OTQ5OSwtNDg2NjYxOTQwLC0zMj
-Q4NzYyMDMsLTE2NDY5MzU0MzQsMTk0ODg1NTEwMiwtNzE5MDQ0
-MzM2LC0xNjQ5NjgwMjU0LDIwODc1OTE5NzQsLTI1OTgxMzM3XX
-0=
+eyJoaXN0b3J5IjpbMTgzNjA5NTMsLTEwMjExNDg0MjQsODIwMz
+QzODUxLDE3MjY0MTM3NiwtMTczODM1ODEwMCwxNDMwNjc1Mjky
+LDE0MjExNDIwNCw2NTQ4Njc4OTQsMTkxMjg4OTQ5OSwtNDg2Nj
+YxOTQwLC0zMjQ4NzYyMDMsLTE2NDY5MzU0MzQsMTk0ODg1NTEw
+MiwtNzE5MDQ0MzM2LC0xNjQ5NjgwMjU0LDIwODc1OTE5NzQsLT
+I1OTgxMzM3XX0=
 -->
