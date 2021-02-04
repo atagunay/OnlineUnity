@@ -416,6 +416,10 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
     a b;
     b = Object.FindObjectOfType<a>();
     b.CAGIRMAK ISTEDIGIM FONKSIYONUMUN ADI;
+    
+## Script Optimizasyonu
+-   **[16]* Scriptlerinizde içi boş Unity fonksiyonları bırakmayın (özellike  **Update**,  **LateUpdate**  ve  **FixedUpdate**). Bu fonksiyonlar  **Unity Script Reference**‘de  **MonoBehaviour**  altında  **Messages**  olarak listelenir ve scriptlerinizde bu fonksiyonlardan herhangi birisi varsa, o fonksiyon içi boş olsa bile çağrılır. Update, LateUpdate ve FixedUpdate fonksiyonları oyun sırasında defalarca kez çağrıldığı için de özellikle bu fonksiyonlar konusunda özen gösterin: fonksiyonu kullanmıyor musunuz? O zaman kodunuzdan silin.
+-   Kodunuzda bir component’e birden çok kez erişiyorsanız, o component’e her seferinde  **GetComponent**  ile erişmek yerine onu bir değişkenin içinde tutun ve sonraki seferlerde bu değişkeni kullanın.
 
 
 
@@ -428,10 +432,11 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NjQwMzYzMCwtNTY0NDQzMTc4LDE1Nj
-M0OTk4NzYsLTEwMjExNDg0MjQsODIwMzQzODUxLDE3MjY0MTM3
-NiwtMTczODM1ODEwMCwxNDMwNjc1MjkyLDE0MjExNDIwNCw2NT
-Q4Njc4OTQsMTkxMjg4OTQ5OSwtNDg2NjYxOTQwLC0zMjQ4NzYy
-MDMsLTE2NDY5MzU0MzQsMTk0ODg1NTEwMiwtNzE5MDQ0MzM2LC
-0xNjQ5NjgwMjU0LDIwODc1OTE5NzQsLTI1OTgxMzM3XX0=
+eyJoaXN0b3J5IjpbMTM4NzY3Nzk4MSwxNjg2NDAzNjMwLC01Nj
+Q0NDMxNzgsMTU2MzQ5OTg3NiwtMTAyMTE0ODQyNCw4MjAzNDM4
+NTEsMTcyNjQxMzc2LC0xNzM4MzU4MTAwLDE0MzA2NzUyOTIsMT
+QyMTE0MjA0LDY1NDg2Nzg5NCwxOTEyODg5NDk5LC00ODY2NjE5
+NDAsLTMyNDg3NjIwMywtMTY0NjkzNTQzNCwxOTQ4ODU1MTAyLC
+03MTkwNDQzMzYsLTE2NDk2ODAyNTQsMjA4NzU5MTk3NCwtMjU5
+ODEzMzddfQ==
 -->
