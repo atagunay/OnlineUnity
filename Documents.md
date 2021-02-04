@@ -336,7 +336,16 @@ Kullanıcın o an etkilişime girdiği, üstüne bastığı game objeyi öğrenm
 ## Singleton Prensibi
 Bu dersimizde, **Unity 3D**‘de bir objenin sahneler (scene) arası geçiş yapmasını ve ne olursa olsun o objeden aynı anda sadece bir tane olmasını nasıl sağlayacağınızı göreceğiz.
 
+Örneğin oyununuz çok zor bir runner oyunu ve oyuncu ortalama 5-10 saniyede bir ölüp duruyor. Oyuncu ölünce  **Application.LoadLevel**  ile bölüme restart atıyorsunuz diyelim. Eğer oyununuzun bir arkaplan müziği varsa her restart atışınızda bu müzik başa saracaktır ve kısa bir süre sonra bu oyuncuyu gıcık edecektir. Onun yerine oyuncu ölüp bölüme restart atılsa bile müziğin kaldığı yerden devam etmesini istiyorsunuz diyelim. İşte burada iki prensip bir arada kullanılmakta:
 
+**1-**  Müzik objesi scene’ler arası geçişte yok olmuyor, böylece müzik kaldığı yerden çalmaya devam ediyor
+
+**2-**  Bölüme restart atınca müzik objesinden elinizde iki tane oluyor: birisi önceki scene’den gelen ve çalmaya devam eden müzik objesi, öteki ise scene’e restart atınca sıfırdan oluşan müzik objesi. Bu sıfırdan oluşan müzik objesinin çalmasını istemiyoruz (**singleton prensibi**)
+
+
+Anlayacağınız üzere, **singleton prensibi bir objeden aynı anda sadece bir tane olmasını (ve bu objenin de scene’ler arası geçiş yaparken bizimle gelen obje olmasını) sağlar**. Saydığım bu iki özelliği de oyununuzda uygulamak çok basit.
+
+**SingletonMuzik** adında yeni bir  **C#** script oluşturup bunu müzik objenize verin ve ardından scripti şöyle değiştirin:
 
 ## String Bir Değeri İnteger Türüne Dönüştürmek
 b stringini integera çevirerek a değişkenine atamasını yaptık
@@ -364,11 +373,13 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNjA5NTMsLTEwMjExNDg0MjQsODIwMz
-QzODUxLDE3MjY0MTM3NiwtMTczODM1ODEwMCwxNDMwNjc1Mjky
-LDE0MjExNDIwNCw2NTQ4Njc4OTQsMTkxMjg4OTQ5OSwtNDg2Nj
-YxOTQwLC0zMjQ4NzYyMDMsLTE2NDY5MzU0MzQsMTk0ODg1NTEw
-MiwtNzE5MDQ0MzM2LC0xNjQ5NjgwMjU0LDIwODc1OTE5NzQsLT
-I1OTgxMzM3XX0=
+eyJoaXN0b3J5IjpbLTEzMDIzMTE3NjAsLTEwMjExNDg0MjQsOD
+IwMzQzODUxLDE3MjY0MTM3NiwtMTczODM1ODEwMCwxNDMwNjc1
+MjkyLDE0MjExNDIwNCw2NTQ4Njc4OTQsMTkxMjg4OTQ5OSwtND
+g2NjYxOTQwLC0zMjQ4NzYyMDMsLTE2NDY5MzU0MzQsMTk0ODg1
+NTEwMiwtNzE5MDQ0MzM2LC0xNjQ5NjgwMjU0LDIwODc1OTE5Nz
+QsLTI1OTgxMzM3XX0=
 -->
