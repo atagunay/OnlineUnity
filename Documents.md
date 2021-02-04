@@ -329,6 +329,8 @@ Kullanıcın o an etkilişime girdiği, üstüne bastığı game objeyi öğrenm
 	    Game Object OgrenmekIstedgimizGO;
         OgrenmekIstedgimizGO = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject;
 
+### Popüler DFonksiyonlar
+
 <blockquote>
 <h2 id="game-manager"><strong>C# FUNDEMENTAL</strong></h2>
 </blockquote>
@@ -404,10 +406,10 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDQ0MzE3OCwxNTYzNDk5ODc2LC0xMD
-IxMTQ4NDI0LDgyMDM0Mzg1MSwxNzI2NDEzNzYsLTE3MzgzNTgx
-MDAsMTQzMDY3NTI5MiwxNDIxMTQyMDQsNjU0ODY3ODk0LDE5MT
-I4ODk0OTksLTQ4NjY2MTk0MCwtMzI0ODc2MjAzLC0xNjQ2OTM1
-NDM0LDE5NDg4NTUxMDIsLTcxOTA0NDMzNiwtMTY0OTY4MDI1NC
-wyMDg3NTkxOTc0LC0yNTk4MTMzN119
+eyJoaXN0b3J5IjpbMTU1MDE3MTY2OCwtNTY0NDQzMTc4LDE1Nj
+M0OTk4NzYsLTEwMjExNDg0MjQsODIwMzQzODUxLDE3MjY0MTM3
+NiwtMTczODM1ODEwMCwxNDMwNjc1MjkyLDE0MjExNDIwNCw2NT
+Q4Njc4OTQsMTkxMjg4OTQ5OSwtNDg2NjYxOTQwLC0zMjQ4NzYy
+MDMsLTE2NDY5MzU0MzQsMTk0ODg1NTEwMiwtNzE5MDQ0MzM2LC
+0xNjQ5NjgwMjU0LDIwODc1OTE5NzQsLTI1OTgxMzM3XX0=
 -->
