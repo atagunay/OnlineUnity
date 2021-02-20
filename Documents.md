@@ -8,7 +8,7 @@
 <h2 id="user-interface"><strong>USER INTERFACE</strong></h2>
 
 ## Anchor Terimi
-
+Anchor’u, canvas üzerinde 4 üçgenin bir araya gelmesiyle oluşmuş bir ikon olarak görebilirsiniz (öncesinde buton objesini seçmeniz lazım). İşin ilginç yanı şu ki aslında her UI elemanının bir değil tam dört tane anchor’u vardır. O dört üçgenin her biri bir anchor’u temsil etmektedir. Eğer bu üçgenlerden herhangi birini tutup sürüklerseniz dört anchor birbirinden ayrılır. nchor’ların çok ama çok önemli bir özelliği var: her bir anchor aslında bağlı olduğu UI elemanının bir köşesiyle iletişim halindedir. Sıradaki cümleye lütfen dikkatinizi verin çünkü kritik nokta burası: **Bir anchor ile o anchor’un bağlı olduğu köşe arasındaki uzaklık, ekranın çözünürlüğü ne kadar değişirse değişsin “daima” aynı kalacaktır.**
 
  ## Telefon Çıktıları İçin Güvenli Bölgenin Hazırlanması
  Telefonların kullanılabilir ekranları değişiklik gösterdiği için oyunlarınızda ki bazı objelerde(buton, text, başlık, logo, vs.) kayma meydana gelebilir. Bunun önüne geçmek için bir yol var.
@@ -159,6 +159,7 @@ soruPaneli.GetComponent&lt;RectTransform&gt;().localScale = new Vector3(0, 0, 0)
 </code></pre>
 <h3 id="seteaseease.parametre">SetEase(Ease.parametre)</h3>
 <p>Kodumuzun sonuna yazcağımız bu ilave kod son bir animasyon ekleyerek işlerinizi çok daha profesyonel göstermektedir. Deneyerek farkı görebilirsiniz. Kodumuzda kullandığımız <strong>SetEase(Ease.OutBack)</strong> kısmı panelimizin sahnede alacağı son scale değeri 1 ise bunu 1.01 yapıp tekrar 1 e döndürerek son bir hareket kazandırmış oluyor.</p>
+
 
 ## Bir Butonu Pasif Hale Getirmek (Buton Gözükecek Ama Basılamayacak)
 
@@ -440,7 +441,7 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NTE2NjQ1MywxMjExNjg5NDk2LDE2OD
+eyJoaXN0b3J5IjpbLTQzMTc1NDE5MiwxMjExNjg5NDk2LDE2OD
 Y0MDM2MzAsLTU2NDQ0MzE3OCwxNTYzNDk5ODc2LC0xMDIxMTQ4
 NDI0LDgyMDM0Mzg1MSwxNzI2NDEzNzYsLTE3MzgzNTgxMDAsMT
 QzMDY3NTI5MiwxNDIxMTQyMDQsNjU0ODY3ODk0LDE5MTI4ODk0
