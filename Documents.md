@@ -161,7 +161,19 @@ soruPaneli.GetComponent&lt;RectTransform&gt;().localScale = new Vector3(0, 0, 0)
 <p>Kodumuzun sonuna yazcağımız bu ilave kod son bir animasyon ekleyerek işlerinizi çok daha profesyonel göstermektedir. Deneyerek farkı görebilirsiniz. Kodumuzda kullandığımız <strong>SetEase(Ease.OutBack)</strong> kısmı panelimizin sahnede alacağı son scale değeri 1 ise bunu 1.01 yapıp tekrar 1 e döndürerek son bir hareket kazandırmış oluyor.</p>
 
 **DOAnchorPos(Vector2  to,  float  duration,  bool  snapping)**
-Bu fonksiyon ile UI elemanlarını bir noktaya taşıyabiliriz. Rect transform ataması ile kullanılır. Böylece canvasınızdaki düzeni bozmadan her telefon ekranı için doğru noktaya kendin
+Bu fonksiyon ile UI elemanlarını bir noktaya taşıyabiliriz. Rect transform ataması ile kullanılır. Böylece canvasınızdaki düzeni bozmadan her telefon ekranı için doğru noktaya kendini taşır. Bu özelliği onu çok güvenli bir fonksiyon haline getirmiştir.
+
+     public RectTransform startButton, leaderboardButton, inventoryButton;
+     
+      // Start is called before the first frame update
+    void Start()
+    {
+        startButton.DOAnchorPos(new Vector2(0, 168), 0.50f).SetEase(Ease.OutBounce);
+        inventoryButton.DOAnchorPos(new Vector2(-310, 564), 0.75f).SetEase(Ease.OutBounce);
+        leaderboardButton.DOAnchorPos(new Vector2(310, 564), 0.75f).SetEase(Ease.OutBounce);
+    
+    }
+     
 
 ## Bir Butonu Pasif Hale Getirmek (Buton Gözükecek Ama Basılamayacak)
 
@@ -443,7 +455,7 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3OTU3ODc4MiwxMjExNjg5NDk2LDE2OD
+eyJoaXN0b3J5IjpbMTczMzQxMzg2NCwxMjExNjg5NDk2LDE2OD
 Y0MDM2MzAsLTU2NDQ0MzE3OCwxNTYzNDk5ODc2LC0xMDIxMTQ4
 NDI0LDgyMDM0Mzg1MSwxNzI2NDEzNzYsLTE3MzgzNTgxMDAsMT
 QzMDY3NTI5MiwxNDIxMTQyMDQsNjU0ODY3ODk0LDE5MTI4ODk0
