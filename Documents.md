@@ -161,7 +161,7 @@ soruPaneli.GetComponent&lt;RectTransform&gt;().localScale = new Vector3(0, 0, 0)
 <p>Kodumuzun sonuna yazcağımız bu ilave kod son bir animasyon ekleyerek işlerinizi çok daha profesyonel göstermektedir. Deneyerek farkı görebilirsiniz. Kodumuzda kullandığımız <strong>SetEase(Ease.OutBack)</strong> kısmı panelimizin sahnede alacağı son scale değeri 1 ise bunu 1.01 yapıp tekrar 1 e döndürerek son bir hareket kazandırmış oluyor.</p>
 
 **DOAnchorPos(Vector2  to,  float  duration,  bool  snapping)**
-Bu fonksiyon ile UI 
+Bu fonksiyon ile UI elemanlarını bir noktaya taşıyabiliriz. Şahsi olarak en sevdiğim yanı bu fonksiyonun transformlar yerine rect transformlar ile kulanılabilmesi.
 
 ## Bir Butonu Pasif Hale Getirmek (Buton Gözükecek Ama Basılamayacak)
 
@@ -443,7 +443,7 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMwMDU2MzMyLDEyMTE2ODk0OTYsMTY4Nj
+eyJoaXN0b3J5IjpbOTQ3MzgwMzYyLDEyMTE2ODk0OTYsMTY4Nj
 QwMzYzMCwtNTY0NDQzMTc4LDE1NjM0OTk4NzYsLTEwMjExNDg0
 MjQsODIwMzQzODUxLDE3MjY0MTM3NiwtMTczODM1ODEwMCwxND
 MwNjc1MjkyLDE0MjExNDIwNCw2NTQ4Njc4OTQsMTkxMjg4OTQ5
