@@ -7,6 +7,8 @@
 <blockquote>
 <h2 id="user-interface"><strong>USER INTERFACE</strong></h2>
 
+##
+
  ## Telefon Çıktıları İçin Güvenli Bölgenin Hazırlanması
  Telefonların kullanılabilir ekranları değişiklik gösterdiği için oyunlarınızda ki bazı objelerde(buton, text, başlık, logo, vs.) kayma meydana gelebilir. Bunun önüne geçmek için bir yol var.
 
@@ -437,7 +439,7 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjMyODU2OTAsMTIxMTY4OTQ5NiwxNj
+eyJoaXN0b3J5IjpbLTE2OTQ4NDMzMTgsMTIxMTY4OTQ5NiwxNj
 g2NDAzNjMwLC01NjQ0NDMxNzgsMTU2MzQ5OTg3NiwtMTAyMTE0
 ODQyNCw4MjAzNDM4NTEsMTcyNjQxMzc2LC0xNzM4MzU4MTAwLD
 E0MzA2NzUyOTIsMTQyMTE0MjA0LDY1NDg2Nzg5NCwxOTEyODg5
