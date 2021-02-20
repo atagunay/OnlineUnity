@@ -160,6 +160,8 @@ soruPaneli.GetComponent&lt;RectTransform&gt;().localScale = new Vector3(0, 0, 0)
 <h3 id="seteaseease.parametre">SetEase(Ease.parametre)</h3>
 <p>Kodumuzun sonuna yazcağımız bu ilave kod son bir animasyon ekleyerek işlerinizi çok daha profesyonel göstermektedir. Deneyerek farkı görebilirsiniz. Kodumuzda kullandığımız <strong>SetEase(Ease.OutBack)</strong> kısmı panelimizin sahnede alacağı son scale değeri 1 ise bunu 1.01 yapıp tekrar 1 e döndürerek son bir hareket kazandırmış oluyor.</p>
 
+**DOAnchorPos(Vector2  to,  float  duration,  bool  snapping)**
+Bu fonksiyon ile UI 
 
 ## Bir Butonu Pasif Hale Getirmek (Buton Gözükecek Ama Basılamayacak)
 
@@ -441,11 +443,11 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMTc1NDE5MiwxMjExNjg5NDk2LDE2OD
-Y0MDM2MzAsLTU2NDQ0MzE3OCwxNTYzNDk5ODc2LC0xMDIxMTQ4
-NDI0LDgyMDM0Mzg1MSwxNzI2NDEzNzYsLTE3MzgzNTgxMDAsMT
-QzMDY3NTI5MiwxNDIxMTQyMDQsNjU0ODY3ODk0LDE5MTI4ODk0
-OTksLTQ4NjY2MTk0MCwtMzI0ODc2MjAzLC0xNjQ2OTM1NDM0LD
-E5NDg4NTUxMDIsLTcxOTA0NDMzNiwtMTY0OTY4MDI1NCwyMDg3
-NTkxOTc0XX0=
+eyJoaXN0b3J5IjpbMzMwMDU2MzMyLDEyMTE2ODk0OTYsMTY4Nj
+QwMzYzMCwtNTY0NDQzMTc4LDE1NjM0OTk4NzYsLTEwMjExNDg0
+MjQsODIwMzQzODUxLDE3MjY0MTM3NiwtMTczODM1ODEwMCwxND
+MwNjc1MjkyLDE0MjExNDIwNCw2NTQ4Njc4OTQsMTkxMjg4OTQ5
+OSwtNDg2NjYxOTQwLC0zMjQ4NzYyMDMsLTE2NDY5MzU0MzQsMT
+k0ODg1NTEwMiwtNzE5MDQ0MzM2LC0xNjQ5NjgwMjU0LDIwODc1
+OTE5NzRdfQ==
 -->
