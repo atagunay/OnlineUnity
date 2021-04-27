@@ -349,7 +349,7 @@ Kullanıcın o an etkilişime girdiği, üstüne bastığı game objeyi öğrenm
         OgrenmekIstedgimizGO = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject;
 
 ## Nesneler arası etkileşimi kesme (LAYER Mantığı)
-Etkileşime girmesini istemdiğimiz nesneleri seçip 
+Etkileşime girmesini istemdiğimiz nesneleri seçip **inspector** alanında bulunan **add layer** kısmından layer ekliyoruz. Daha sonra Edit > Project Settings > Physics 2D yolunu i
 
 ## Popüler Dotween Fonksiyonları
 
@@ -458,11 +458,11 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjU1NzU4NTksMTczMzQxMzg2NCwxMj
-ExNjg5NDk2LDE2ODY0MDM2MzAsLTU2NDQ0MzE3OCwxNTYzNDk5
-ODc2LC0xMDIxMTQ4NDI0LDgyMDM0Mzg1MSwxNzI2NDEzNzYsLT
-E3MzgzNTgxMDAsMTQzMDY3NTI5MiwxNDIxMTQyMDQsNjU0ODY3
-ODk0LDE5MTI4ODk0OTksLTQ4NjY2MTk0MCwtMzI0ODc2MjAzLC
-0xNjQ2OTM1NDM0LDE5NDg4NTUxMDIsLTcxOTA0NDMzNiwtMTY0
-OTY4MDI1NF19
+eyJoaXN0b3J5IjpbLTczNzkwOTkzNSwxNzMzNDEzODY0LDEyMT
+E2ODk0OTYsMTY4NjQwMzYzMCwtNTY0NDQzMTc4LDE1NjM0OTk4
+NzYsLTEwMjExNDg0MjQsODIwMzQzODUxLDE3MjY0MTM3NiwtMT
+czODM1ODEwMCwxNDMwNjc1MjkyLDE0MjExNDIwNCw2NTQ4Njc4
+OTQsMTkxMjg4OTQ5OSwtNDg2NjYxOTQwLC0zMjQ4NzYyMDMsLT
+E2NDY5MzU0MzQsMTk0ODg1NTEwMiwtNzE5MDQ0MzM2LC0xNjQ5
+NjgwMjU0XX0=
 -->
