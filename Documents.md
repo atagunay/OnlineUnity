@@ -348,6 +348,9 @@ Kullanıcın o an etkilişime girdiği, üstüne bastığı game objeyi öğrenm
 	    Game Object OgrenmekIstedgimizGO;
         OgrenmekIstedgimizGO = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject;
 
+## Nesneler arası etkileşimi kesme (LAYER Mantığı)
+Etkileşime girmesini istemdiğimiz nesneleri seçip 
+
 ## Popüler Dotween Fonksiyonları
 
 **transform.DOLocalMove( Vector3 hedefLocalPosition, float sure ):**  Transform objesinin  **localPosition**  değerini (Inspector’daki  _Position_  değeri) _sure_ saniye içerisinde  _hedefLocalPosition_ yapar. Örneğin 1.5 saniyede localPosition’ı  _0,0,0_  yapmak için:  `transform.DOLocalMove( new Vector3( 0f, 0f, 0f ), 1.5f );`
@@ -455,11 +458,11 @@ Bulunduğum scripte a yı çağıracağım değişkenimin ismi = b olsun
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzQxMzg2NCwxMjExNjg5NDk2LDE2OD
-Y0MDM2MzAsLTU2NDQ0MzE3OCwxNTYzNDk5ODc2LC0xMDIxMTQ4
-NDI0LDgyMDM0Mzg1MSwxNzI2NDEzNzYsLTE3MzgzNTgxMDAsMT
-QzMDY3NTI5MiwxNDIxMTQyMDQsNjU0ODY3ODk0LDE5MTI4ODk0
-OTksLTQ4NjY2MTk0MCwtMzI0ODc2MjAzLC0xNjQ2OTM1NDM0LD
-E5NDg4NTUxMDIsLTcxOTA0NDMzNiwtMTY0OTY4MDI1NCwyMDg3
-NTkxOTc0XX0=
+eyJoaXN0b3J5IjpbLTEzNjU1NzU4NTksMTczMzQxMzg2NCwxMj
+ExNjg5NDk2LDE2ODY0MDM2MzAsLTU2NDQ0MzE3OCwxNTYzNDk5
+ODc2LC0xMDIxMTQ4NDI0LDgyMDM0Mzg1MSwxNzI2NDEzNzYsLT
+E3MzgzNTgxMDAsMTQzMDY3NTI5MiwxNDIxMTQyMDQsNjU0ODY3
+ODk0LDE5MTI4ODk0OTksLTQ4NjY2MTk0MCwtMzI0ODc2MjAzLC
+0xNjQ2OTM1NDM0LDE5NDg4NTUxMDIsLTcxOTA0NDMzNiwtMTY0
+OTY4MDI1NF19
 -->
